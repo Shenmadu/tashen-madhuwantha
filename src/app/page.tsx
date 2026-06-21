@@ -76,7 +76,7 @@ export default function Home() {
         <SkillsSection />
 
         {/* EXPERIENCE TIMELINE */}
-        {/* <ExperienceSection /> */}
+        <ExperienceSection />
 
         {/* SHADOW-GATED PROJECTS PORTFOLIO */}
         {/* <ProjectsSection /> */}

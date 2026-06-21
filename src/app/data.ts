@@ -75,39 +75,51 @@ export const skillCategories: SkillCategory[] = [
 export const experiencesData: Experience[] = [
   {
     id: 'xp1',
-    role: 'Associate Software Engineer',
-    company: 'DevLux Labs',
-    location: 'Colombo, LKA (Remote)',
-    duration: '2025 - Present',
+    role: 'Software Engineer',
+    company: 'Candy Factory (Pvt) Ltd.',
+    location: 'Pannipitiya, Sri Lanka',
+    duration: '2025 Sep- Present',
     bullets: [
-      'Engineered scalable microservices using Spring Boot and Node.js, increasing API performance by 35%.',
-      'Architected user interfaces in Next.js/TypeScript that improved user retention by 25% with glassmorphic dashboards.',
-      'Containerized development workflows with Docker and configured Automated GitHub Actions CI/CD pipeline structures.'
+      'Developing modern web applications using AI-powered technologies and industrystandard frameworks. API-driven systems, and building efficient, maintainable, and scalable solutions.',
+      'Working with Node.js, React.js, Next.js, MySQL, managing state with Redux, integrating APIs with AJAX , using GitHub for version control.  deployed and hosted applications on a VPS server, configuring Nginx for production.',
     ],
-    glowing: true
+    glowing: false
   },
   {
     id: 'xp2',
-    role: 'Full Stack Software Engineer',
-    company: 'Synergy Software Systems',
-    location: 'Colombo, LKA',
-    duration: '2024 - 2025',
+    role: 'Software Engineer - Full stack',
+    company: 'Codeaisys Software Solutions - 4A Technologies (pvt) Ltd',
+    location: 'Matara, Sri Lanka',
+    duration: '2024 Dec- 2025 Aug',
     bullets: [
-      'Developed core web applications using Laravel, MySQL, and Tailwind CSS for multi-tenant SaaS clients.',
-      'Integrated Secure OAuth authentication engines and constructed structured OpenAPI 3.0 documented REST gateways.',
-      'Designed a custom caching layer on top of PostgreSQL that dropped database latency by 45ms per load.'
+      'Developing web applications using modern full-stack technologies, including secure payment integrations with Stripe, ensuring efficient and maintainable solutions.',
+      'Working with Node.js, React.js, Next.js, Spring Boot, Laravel, PHP, MySQL, managing state with Redux, integrating APIs with AJAX & Firebase, using GitHub for version control, and collaborating through JIRA for agile development. Integrated Stripe payment gateway for card payments, subscriptions, and webhook handling',
+      'Continued contribution in the Vehicle Management System, Restaurant Management System - V2, Event Management System delivering high-quality, scalable solutions'
     ],
     glowing: false
   },
   {
     id: 'xp3',
-    role: 'Software Engineering Intern',
-    company: 'Apex Digital Inc.',
-    location: 'Colombo, LKA',
-    duration: '2023 - 2024',
+    role: 'Associate Software Engineer - Full stack',
+    company: 'Codeaisys Software Solutions - 4A Technologies (pvt) Ltd',
+    location: 'Matara, Sri Lanka',
+    duration: '2024 April- 2024 Dec',
     bullets: [
-      'Contributed directly to writing highly reusable React visual component library systems used across three core apps.',
-      'Refactored legacy vanilla JavaScript application modules into modern TypeScript, decreasing runtime production errors by 18%.',
+      'Developing front-end and back-end solutions using Node.js, React.js, Next.js, Spring Boot, Laravel, PHP, and MySQL, Managing state with Redux and handling API integrations with AJAX and Firebase, used GitHub for version control, and collaborated through JIRA..',
+      'Restaurant Management System-V1, Student Management System, Vehicle Rental Management System, Successfully Delivered that Projects, showcasing dedication and technical expertise.',
+      'Designed a custom caching layer on top of PostgreSQL that dropped database latency by 45ms per load.'
+    ],
+    glowing: false
+  },
+  {
+    id: 'xp4',
+    role: 'Trainee Software Engineer',
+    company: 'Institute Of Computer Engineering Technology- ICET.',
+    location: 'Panadura, Srilanka',
+    duration: '2023 June- 2024 March',
+    bullets: [
+      'Contributed to requirements gathering, design, and implementation as a full-stack developer',
+      'Developed a full-featured Hotel & Restaurant Management System, optimizing room and restaurant operations, customer data handling, and order/booking management..',
       'Assisted database administrators in executing schema index optimizations for high-volume transactions.'
     ],
     glowing: false
