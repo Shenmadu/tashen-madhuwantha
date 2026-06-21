@@ -79,7 +79,7 @@ export default function Home() {
         <ExperienceSection />
 
         {/* SHADOW-GATED PROJECTS PORTFOLIO */}
-        {/* <ProjectsSection /> */}
+        <ProjectsSection />
 
         {/* PRODUCT DELIVERY SERVICES */}
         <ServicesSection />
