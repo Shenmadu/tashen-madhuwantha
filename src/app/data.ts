@@ -83,7 +83,7 @@ export const experiencesData: Experience[] = [
       'Developing modern web applications using AI-powered technologies and industrystandard frameworks. API-driven systems, and building efficient, maintainable, and scalable solutions.',
       'Working with Node.js, React.js, Next.js, MySQL, managing state with Redux, integrating APIs with AJAX , using GitHub for version control.  deployed and hosted applications on a VPS server, configuring Nginx for production.',
     ],
-    glowing: false
+    glowing: true
   },
   {
     id: 'xp2',
