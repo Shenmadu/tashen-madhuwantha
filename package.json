@@ -6,15 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate-embeddings": "npx tsx scripts/generate-embeddings.ts"
   },
   "dependencies": {
+    "@google/genai": "^2.10.0",
+    "ai": "^7.0.3",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
     "next": "16.2.9",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "@google/genai": "^2.4.0",
-    "lucide-react": "^0.546.0",
-    "motion": "^12.23.24"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
