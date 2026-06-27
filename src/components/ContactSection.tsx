@@ -1,7 +1,6 @@
 import { useState, FormEvent } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Mail, Phone, MapPin, CheckCircle, Clock, Send, Sparkles } from 'lucide-react';
-import AIAssistant from './AIAssistant';
+import { Mail, Phone, MapPin, CheckCircle, Clock, Send } from 'lucide-react';
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -70,29 +69,29 @@ export default function ContactSection() {
         {/* Multi-tier communication grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
           
-          {/* Left Panel: Direct details & AI Assistant sandbox */}
-          <div className="lg:col-span-6 flex flex-col justify-between space-y-6">
+          {/* Left Panel: Direct details */}
+          <div className="lg:col-span-6 flex flex-col justify-center space-y-8">
             
             <div className="space-y-4 text-left">
-              <h3 className="font-sans text-xl font-bold text-white tracking-tight">
-                Connect Directly or Consult My AI
+              <h3 className="font-sans text-2xl font-bold text-white tracking-tight">
+                Connect Directly
               </h3>
-              <p className="font-sans text-xs sm:text-sm text-zinc-400 leading-relaxed max-w-lg">
-                Enter your project metrics in the styled contact sheet on the right, or initiate an instant assessment session with my AI assistant console below!
+              <p className="font-sans text-sm text-zinc-400 leading-relaxed max-w-lg">
+                Enter your project metrics in the styled contact sheet on the right, or reach out directly using the contact details below to initiate our collaboration!
               </p>
 
               {/* Badges block */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
                 {contactInfos.map(info => (
-                  <div key={info.id} className="p-3 bg-white/2.5 border border-white/5 rounded-xl flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center border border-white/5 font-semibold shrink-0">
+                  <div key={info.id} className="p-4 bg-white/2.5 border border-white/5 rounded-xl flex items-center gap-4 hover:bg-white/5 transition-colors">
+                    <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center border border-white/5 shrink-0 shadow-sm">
                       {info.icon}
                     </div>
                     <div className="text-left font-sans">
-                      <span className="block text-[8px] font-mono text-zinc-500 tracking-wider uppercase">{info.label}</span>
+                      <span className="block text-[10px] font-mono text-zinc-500 tracking-wider uppercase mb-0.5">{info.label}</span>
                       <a
                         href={info.id === 'mail' ? `mailto:${info.val}` : undefined}
-                        className="text-xs font-semibold text-white hover:text-indigo-400 transition-colors"
+                        className="text-sm font-semibold text-white hover:text-indigo-400 transition-colors"
                       >
                         {info.val}
                       </a>
@@ -100,15 +99,6 @@ export default function ContactSection() {
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* AI Assistant Embed Area */}
-            <div className="w-full">
-              <div className="mb-2 text-left flex items-center gap-1.5">
-                <Sparkles className="w-4.5 h-4.5 text-[#8B5CF6] animate-pulse" />
-                <span className="font-mono text-[9px] tracking-widest text-zinc-400 uppercase">Interactive Consultation Platform</span>
-              </div>
-              <AIAssistant />
             </div>
 
           </div>
