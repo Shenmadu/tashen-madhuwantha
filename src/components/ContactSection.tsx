@@ -44,8 +44,8 @@ export default function ContactSection() {
   };
 
   const contactInfos = [
-    { id: 'mail', label: 'E-mail Inquiries', val: 'tashenmadhuwantha@gmail.com', icon: <Mail className="w-4 h-4 text-[#6366F1]" /> },
-    { id: 'phone', label: 'Direct Hotline', val: '+94 77 123 4567', icon: <Phone className="w-4 h-4 text-[#8B5CF6]" /> },
+    { id: 'mail', label: 'E-mail Inquiries', val: 'tashen.madu@gmail.com', icon: <Mail className="w-4 h-4 text-[#6366F1]" /> },
+    { id: 'phone', label: 'Direct Hotline', val: '+94 71 999 7732', icon: <Phone className="w-4 h-4 text-[#8B5CF6]" /> },
     { id: 'loc', label: 'Office Base', val: 'Colombo, Sri Lanka', icon: <MapPin className="w-4 h-4 text-[#06B6D4]" /> },
     { id: 'tz', label: 'Working Timezone', val: 'UTC +05:30 (Col)', icon: <Clock className="w-4 h-4 text-[#34D399]" /> }
   ];
